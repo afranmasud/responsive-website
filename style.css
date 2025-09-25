@@ -367,6 +367,50 @@ nav ul li a:hover, nav ul li a.active{
        .submit-button:hover{
         background-color: #001133;
        }
+       /* saven section start */
+
+          .text{
+            text-align: center;
+            
+          }
+        .siven-section{
+          background-color: rgb(15, 53, 53);
+          padding: 100px 0px;
+          color: white;
+        }
+
+       .siven-section-parent{
+        
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 200px;
+        margin-right: 200px;
+        grid-gap: 50px;
+       }
+        .saven-text-parent{
+          background-color: #001133;
+          text-align: center;
+          padding: 25px;
+          border: 2px solid lightgreen;
+          box-shadow: 5px 5px 5px rgb(8, 184, 8);
+          border-radius: 5px;
+        }
+        .saven-text-parent i{
+          font-size: 40px;
+          padding: 0px 20px 20px 30px;
+          
+        }
+        .saven-text-parent:nth-child(2){
+          border: 5px solid wheat;
+        }
+        .saven-text-parent h3{
+          font-size: 25px;
+          margin: 25px 0px;
+          
+          
+        }
+       
+       
 
 
 
@@ -427,7 +471,14 @@ form{
  padding: 20px 30px;
 }
 
-
+ .siven-section-parent{
+ 
+ display: grid;
+ grid-template-columns: repeat(1,1fr);
+ margin-left: 20px;
+ margin-right: 20px;
+ grid-gap: 40px;
+}
  
  
 }
@@ -481,9 +532,15 @@ form{
  width: 90%;
  background-color: #001133b4;
  padding: 40px 50px;
-
-
-
-  
   }
+
+   .siven-section-parent{
+ 
+display: grid;
+grid-template-columns: repeat(2,1fr);
+margin-left: 70px;
+margin-right: 70px;
+grid-gap: 40px;
+}
+}
   
