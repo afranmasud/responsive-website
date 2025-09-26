@@ -462,9 +462,55 @@ nav ul li a:hover, nav ul li a.active{
         
       }
 
-
-
-
+        footer{
+          background-color: #041942;
+          padding: 100px 0px 80px 0px;
+        }
+      .footer-div-parent{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px;
+        margin-right: 200px;
+        align-items: center;
+        gap: 80px;
+        color: white;
+       
+        
+      }
+        .single-div-parent{
+          width: 100%;
+          
+        }
+          
+        .single-div-parent h3{
+                font-size: 25px;
+                margin-bottom: 30px;
+                letter-spacing: 3px;
+        }
+         .single-div-parent a{
+          text-decoration: none;
+          color: white;
+         }
+         .single-div-parent2 p {
+                margin: 15px;
+         }
+         .single-div-parent ul li{
+          list-style: none;
+         }
+         .single-div-parent3 ul {
+          display: flex;
+         }
+       .single-div-parent3 ul li a{
+        text-decoration: none;
+        margin: 0px 10px;
+        font-size: 35px;
+        background-color: #022650b7;
+        padding: 8px;
+        border-radius: 5px;
+       }
+       .single-div-parent span{
+        color: yellow;
+       }
 
   @media only screen and (max-width:688px) {
     .service-parents{
@@ -542,7 +588,18 @@ form{
   height: 300px;
   width: 300px;
  }
-  
+   .footer-div-parent{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+   }
+   .single-div-parent{
+    text-align: center;
+   }
+   .single-div-parent3 ul{
+    display: flex;
+    justify-content: center;
+   }
 }
 
 
@@ -621,5 +678,9 @@ grid-gap: 40px;
   .career-parent{
   margin-bottom: 50px;
 }
+  .footer-div-parent{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
 }
   
